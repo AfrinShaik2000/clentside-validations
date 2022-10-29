@@ -183,8 +183,7 @@ input:focus{
 }
 #finalDate{
     position: absolute;
-    /* margin-top: -10px; */
-    margin-left: -16%;
+    margin-top: -50px;
 }
 #error{
     position: absolute;
@@ -260,8 +259,5 @@ pre{
     }
     .phone{
         margin: 10px 20px;
-    }
-    #finalDate{
-        margin-left:-32%;
     }
 }
