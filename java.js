@@ -227,7 +227,7 @@ function submitfunction(){
     ca = document.getElementById("line2").value;
     bc = document.getElementById("bill").value;
 
-    if(n=="" || c=="" ||d=="" || ca=="" ||bc==""){
+    if(n=="" || c=="" ||d=="" || em=="" || ph=="" || ca=="" ||bc==""){
         alert("enter the full details");
     }
     else{
