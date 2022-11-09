@@ -8,7 +8,7 @@ document.getElementById("line6").addEventListener("focusout",addressline5);
 document.getElementById("email-input").addEventListener("focusout",emailfunction);
 document.getElementById("phone-input").addEventListener("focusout",phonefunction);
 document.getElementById("add").addEventListener("focusout",lastrow);
-document.getElementById("submit").addEventListener("focusout",submitfunction);
+// document.getElementById("submit").addEventListener("focusout",submitfunction);
 
 
 function myfunction(){
@@ -227,7 +227,7 @@ function submitfunction(){
     ca = document.getElementById("line2").value;
     bc = document.getElementById("bill").value;
 
-    if(n=="" || c=="" ||d=="" || em=="" || ph=="" || ca=="" ||bc==""){
+    if(n=="" || c=="" ||d=="" || ca=="" ||bc==""){
         alert("enter the full details");
     }
     else{
